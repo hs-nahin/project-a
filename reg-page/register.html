@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- ----------- -->
+    <!-- Title -->
+    <title>Registration System</title>
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="reg-style.css">
+</head>
+<body>
+    <section class="main-control">
+        <form action="" class="form">
+            <!-- Title Area -->
+            <h1 class="form-title">Register Your Account</h1>
+            <br>
+
+            <!-- Name Area Starts Here -->
+            <!-- First Name -->
+            <input type="text" name="" placeholder="Write Your First Name">
+            <!-- Last Name -->
+            <input type="text" name="" class="last-name" placeholder="Write Your Last Name">
+            <!-- Name Area Ends Here -->
+            <br>
+
+            <!-- Email -->
+            <input type="email" name="" value="@gmail.com" required>
+            <br>
+
+            <!-- Password -->
+            <input type="password" name="" placeholder="Enter Password" required>
+            <input type="password" name="" class="re-password" placeholder="Confirm Password" required>
+            <br>
+
+        <!-- DATA Container Starts Here -->
+        <div class="data-container">
+            <!-- Country Selection -->
+            <div class="country-container">
+                Country :
+                <select name="Country" class="country">
+                    <option>Afghanistan</option>
+                    <option selected>Bangladesh</option>
+                    <option>Bhutan</option>
+                    <option>India</option>
+                    <option>Nepal</option>
+                    <option>Pakistan</option>
+                </select>
+            </div>
+            <!-- ................ -->
+
+            <!-- Birthdate -->
+            <div class="birth-container">
+                Birthdate :
+                <input type="date" min="2000-01-01" max="2022-04-30" class="birthdate">
+            </div>
+            <!-- ......... -->
+
+            <!-- Gender -->
+            <div class="gender">
+            Gender :
+            <input type="radio" name="gender" value="Male" checked> Male 
+            <input type="radio" name="gender" value="Female"> Female 
+            </div>
+            <!-- ..... -->
+
+        </div>
+        <!-- DATA Container Ends Here -->
+
+            <!-- Select Your Role -->
+            <div class="select-control">
+            Your Role
+            <select name="" class="select">
+                <option value="1">Student</option>
+                <option value="2">Teacher</option>
+            </select>
+            </div>
+            <br>
+
+            <!-- Submit Button -->
+            <input type="submit">
+            <input type="reset">
+            <br>
+            <div class="user-login">
+                Already an user? <a href="Login_page/login.html">Login Here</a>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

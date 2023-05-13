@@ -1,0 +1,86 @@
+/* Body Area */
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: aliceblue;
+}
+/* ....... */
+
+/* Main Container Control Area */
+.main-container{
+    margin-top: 10%;
+    margin-left: 2%;
+}
+/* ......................... */
+
+/* Login Area */
+.login{
+    width: 500px;
+    height: 220px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 3%;
+    border-radius: 5px;
+    background-color: white;
+}
+/* ......... */
+
+/* Username Area */
+input[type="text"]{
+    margin-top: 10px;
+    border: none;
+    background: white;
+    width: 370px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border-bottom: 1px solid #B6D5DC;
+    transition: 0.8s ease;
+}
+
+/* Change border color on focus */
+input[type="text"]:focus {
+    border-bottom-color: #F45B69;
+    outline: none; /* Remove focus outline */
+  }
+/* .............. */
+
+/* Password Area */
+input[type="password"]{
+    margin-top: 10px;
+    border: none;
+    background: white;
+    width: 370px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border-bottom: 1px solid #B6D5DC;
+    transition: 0.8s ease;
+}
+/* Change border color on focus */
+input[type="password"]:focus {
+    border-bottom-color: #F45B69;
+    outline: none; /* Remove focus outline */
+  }
+/* ............ */
+
+/* Button */
+button{
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    width: 85px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #F45B69;
+    border: none;
+    margin-top: 20px;
+    margin-right: 60%;
+    transition: 0.8s ease;
+}
+
+button:hover{
+    background-color: #B6D5DC;
+}
+/* ...... */

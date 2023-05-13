@@ -1,0 +1,386 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(images/bg-img/banner.png);
+    background-repeat: no-repeat;
+}
+
+::selection{
+    color: white;
+    background-color: #b6d5dc;
+}
+/* Header Area Starts */
+/* Header */
+header{
+    
+}
+/* ..... */
+
+/* Navigation */
+nav{
+    display: flex;
+    justify-content: center;
+}
+/* ......... */
+
+/* List */
+/* LOGO */
+img{
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+
+}
+
+ul li{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 5%;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #F45B69;
+    transition: 0.8s ease;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+ul li a:hover{
+    background: #F45B69;
+    color:#c2f4ff;
+}
+
+hr{
+    width: 70%;
+    border: none;
+    border-top: 2px solid #b6d5dc;
+    transition: 0.8s cubic-bezier(0.72, 0.25, 0.33, 0.84);
+    margin: 0 auto;
+}
+
+hr:hover{
+    border-color: #F45B69;
+}
+/* ... */
+/* Header Area Ends */
+
+/* Banner Area */
+.banner-area{
+
+}
+.banner-text{
+    width: 350px;
+    text-align: left;
+    line-height: 1.50;
+    color: #f45b69;
+    margin-left: 60%;
+    margin-top: 26%;
+    font-size: 21px;
+    font-style: italic;
+}
+
+/* Banner Area Ends */
+
+/* About Us Area Starts */
+.about-container{
+    margin-top: 25%;
+}
+
+.about-us{
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.about-title{
+    font-weight: 700;
+    font-size: 260px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #d1e7ec;
+    font-family: Poppins,sans-serif;
+    position: relative;
+    top: 200px;
+    margin: 0 -850px 0 0;
+    right: 445px;
+}
+
+.about{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #146172;
+    position: relative;
+    font-size: 35px;
+    line-height: 1.50;
+    transition: 0.8s ease;
+}
+
+.about:hover{
+    color:#F45B69;
+}
+
+.about-description{
+    line-height: 35px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #184e5a;
+    position: relative;
+    margin: 0 0 10px 0;
+}
+/* About Us Area Ends */
+
+/* Service Area Starts */
+.service-container{
+    margin-top: 20%;
+}
+
+.service{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.service-title{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #d1e7ec;
+    font-family: Poppins,sans-serif;
+    position: relative;
+    transition: 0.8s ease;
+}
+
+.service-title:hover{
+    color:#F45B69;
+}
+
+
+
+/* Service Card */
+.skills-container{
+    display: flex;
+    gap: 25px;
+    position: relative;
+    justify-content: center;
+}
+
+.skills-container img{
+    width: 44px;
+    height: 44px;
+}
+
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    width: 267px;
+    height: 377px;
+    padding: 30px;
+    transition: 0.5s cubic-bezier(0.95, 0.18, 0.27, 0.95);
+}
+
+
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.skill-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+/* Hover */
+.skill:hover{
+    transform: scale(1.1);
+}
+/* Service Cards Ends */
+/* Service Area Ends */
+
+/* Team Area Starts */
+.team-container{
+    margin-top: 15%;
+}
+
+.teams{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.team-title{
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #d1e7ec;
+    font-family: Poppins,sans-serif;
+    position: relative;
+    transition: 0.8s ease;
+}
+
+.team-title:hover{
+    color:#F45B69;
+}
+
+/* Team Area Ends */
+
+/* ------------------------------------
+        Sponsor Section
+------------------------------------ */
+/* Main Control */
+.sponsor-container{
+    margin-top: 12%;
+    margin-bottom: 10%;
+}
+/* Sponsor Area */
+.sponsor-first{
+    text-align: center;
+    margin: 0 auto;
+}
+.sponsor-title{
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #d1e7ec;
+    font-family: Poppins,sans-serif;
+    position: relative;
+    font-size: 55px;
+    transition: 0.8s ease;
+}
+
+.sponsor-title:hover{
+    color:#F45B69;
+}
+
+.sponsor-description{
+    width: 542px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #184e5a;
+    margin: 0 auto;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+/* Second Section of Sponsor Area */
+.sponsors{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    margin-top: 5%;
+}
+/* .sponsor-logo{
+
+} */
+.sponsors img{
+    filter: grayscale(100%);
+    transition: 1s cubic-bezier(0.31, 0.36, 0, 0.68);    
+}
+.sponsors img:hover{
+    filter: grayscale(0%);
+}
+/* ------------------------------------
+        Sponsor Section Ends
+------------------------------------ */
+
+
+/* ------------------------------------
+        Team Section Starts
+------------------------------------ */
+.team-members {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.member {
+    text-align: center;
+    margin: 20px;
+}
+  
+.member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    transition: filter 0.6s cubic-bezier(0.69, 0.21, 0.31, 0.86);
+    object-fit: cover;
+}
+  
+.member img:hover {
+    filter: none;
+  }
+  
+.member h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
+.member p {
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+
+/* ------------------------------------
+        Team Section Ends
+------------------------------------ */
+
+
+
+
+footer {
+    background-color: #1b1b1b;
+    color: #545454;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer-title {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Scroll Button Starts*/
+.scroll-btn {
+    position: fixed;
+    bottom: 5px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #282828;
+    color: #5a9ead;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    z-index: 1;
+    transition: all 0.5s cubic-bezier(0.95, 0.18, 0.27, 0.95) 0s;
+}
+  
+  .scroll-btn:hover {
+    background-color: #323131;
+    color: #b6d5dc;
+  }
+    
+/* Scroll Button Ends */

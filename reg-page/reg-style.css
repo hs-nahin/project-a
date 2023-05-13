@@ -1,0 +1,232 @@
+/* Body */
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: aliceblue;
+}
+
+::selection{
+    background: #2bbad0;
+    color: rgb(255, 255, 255);
+}
+/* Main Control */
+.main-control {
+    background-color: white;
+    width: 800px;
+    height: 680px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+/* ............. */
+
+/* Form Area */
+.form{
+
+}
+/* ........ */
+
+/* Title Area */
+.form-title{
+    padding-top: 8%;
+    color: #B6D5DC;
+    font-weight: initial;
+    font-size: 30px;
+}
+/* ............. */
+
+/* Name Area Starts */
+input[type="text"]{
+    margin-top: 10px;
+    border: none;
+    background: white;
+    width: 310px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border-bottom: 1px solid #B6D5DC;
+    transition: 0.8s ease;
+    color: #79acb8;
+}
+
+/* Change border color on focus */
+input[type="text"]:focus {
+    border-bottom-color: #F45B69;
+    outline: none; /* Remove focus outline */
+}
+/* .............. */
+/* Last Name */
+.last-name{
+    margin-left: 2%;
+}
+/* Naming Area Ends */
+/* ........ */
+
+/* Email Area */
+input[type="email"]{
+    margin-top: 5%;
+    border: none;
+    background: white;
+    width: 450px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border-bottom: 1px solid #B6D5DC;
+    transition: 0.8s ease;
+    color: #79acb8;
+}
+
+input[type="email"]:focus {
+    border-bottom-color: #F45B69;
+    outline: none; /* Remove focus outline */
+}
+/* ......... */
+
+/* Password */
+input[type="password"]{
+    margin-top: 5%;
+    border: none;
+    background: white;
+    width: 310px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border-bottom: 1px solid #B6D5DC;
+    transition: 0.8s ease;
+    color: #79acb8;
+}
+
+/* Change border color on focus */
+input[type="password"]:focus {
+    border-bottom-color: #F45B69;
+    outline: none; /* Remove focus outline */
+}
+
+.re-password{
+    margin-left: 2%;
+}
+/* ....... */
+
+/*** DATA Container Starts ***/
+.data-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+/* Country Selection */
+.country-container{
+    color: #B6D5DC;
+}
+
+/* Country */
+.country{
+    background-color: aliceblue;
+    border: 1px solid #F45B69;
+    color: #F45B69;
+}
+/* Birthdate */
+.birth-container{
+    color: #B6D5DC;
+}
+.birthdate{
+    background-color: aliceblue;
+    border: 1px solid #F45B69;
+    color: #F45B69;
+}
+/* Gender */
+.gender{
+    color: #B6D5DC;
+}
+input[type='radio']:after{
+
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -1px;
+    left: -1px;
+    position: relative;
+    background-color: transparent;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: transparent;
+    cursor: pointer;
+}
+
+input[type='radio']:checked:after{
+
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -1px;
+    left: -1px;
+    position: relative;
+    background-color: #F45B69;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    transition: 0.3s;
+}
+/*** DATA Container Ends Here ***/
+
+/* Selection of Role */
+.select-control{
+    margin-top: 5%;
+    color: #B6D5DC;;
+}
+.select{
+    background-color: aliceblue;
+    border: 1px solid #F45B69;
+    color: #F45B69;
+}
+/* ................. */
+
+/* Button */
+/* Submit */
+input[type="submit"]{
+    background-color: #B6D5DC;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.8s ease;
+}
+input[type="submit"]:hover{
+    background-color: #79acb8;
+}
+/* Submit */
+
+/* Reset */
+input[type="reset"]{
+    background-color: #F45B69;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.8s ease;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+input[type="reset"]:hover{
+    background-color: #c64853;
+}
+/* ..... */
+
+/* User Login */
+.user-login{
+    margin-top: 5%;
+}
+a{
+    color: #B6D5DC;
+    transition: 0.8s ease;
+}
+a:hover{
+    color: #79acb8;
+}
+/* ......... */
